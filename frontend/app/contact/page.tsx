@@ -62,7 +62,7 @@ const ContactUs = () => {
     console.log("Attempting to send form:", values);
 
     try {
-      const response = await fetch("http://localhost:8080/api/contact", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
