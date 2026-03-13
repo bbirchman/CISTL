@@ -13,12 +13,3 @@ export const minimal_theme = createTheme({
   fontFamily: "HK Grotesk, sans-serif",
   headings: { fontFamily: "Adobe Garamond Pro, serif" },
 });
-
-export const modern_theme = createTheme({
-  colors: {
-    strength: colorsTuple("#FF5100"),
-    truth: colorsTuple("#005CB9"),
-    joy: colorsTuple("#EED215"),
-    black: colorsTuple("#000000"),
-  },
-});
