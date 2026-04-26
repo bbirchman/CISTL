@@ -17,6 +17,8 @@ Thumbs.db
 dist/
 build/
 tmp/
+.open-next/
+.next/
 
 # Log files
 *.log
