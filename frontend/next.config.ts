@@ -1,7 +1,7 @@
-// frontend/next.config.ts
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-};
+  // Your existing config here
+}
 
-export default nextConfig;
+export default nextConfig
